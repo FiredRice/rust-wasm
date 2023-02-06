@@ -2,12 +2,12 @@
 
 ## 目录
 
-[1. 安装 Rust 编译工具](#-1-安装-rust-编译工具- )
-[2. 全局安装 wasm-pack](#-2-全局安装-wasm-pack- )
-[3. 搭建 Visual Studio Code 开发环境](#-3-搭建-visual-studio-code-开发环境- )
-[4. 创建 Rust 应用](#-4-创建-rust-应用- )
-[5. 创建 React 应用](#-5-创建-react-应用- )
-[6. 开始应用](#-6-开始应用- )
+- [1. 安装 Rust 编译工具](#-1-安装-rust-编译工具- )
+- [2. 全局安装 wasm-pack](#-2-全局安装-wasm-pack- )
+- [3. 搭建 Visual Studio Code 开发环境](#-3-搭建-visual-studio-code-开发环境- )
+- [4. 创建 Rust 应用](#-4-创建-rust-应用- )
+- [5. 创建 React 应用](#-5-创建-react-应用- )
+- [6. 开始应用](#-6-开始应用- )
 
 ## 1. 安装 Rust 编译工具
 
