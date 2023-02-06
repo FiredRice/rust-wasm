@@ -39,30 +39,30 @@ cargo install wasm-pack --no-default-features # 忽略 OpenSSL
 ```json
 // tasks.json
 { 
-    "version": "2.0.0", 
+    "version": "2.0.0",
     "tasks": [{ 
-        "label": "build", 
-        "type": "shell", 
-        "command":"cargo", 
-        "args": ["build"] 
-    }] 
+        "label": "build",
+        "type": "shell",
+        "command": "cargo",
+        "args": ["build"]
+    }]
 }
 ```
 ```json
 // launch.json
 { 
-    "version": "0.2.0", 
-    "configurations": [{ 
-        "name": "(Windows) 启动", 
-        "preLaunchTask": "build", 
-        "type": "cppvsdbg", 
-        "request": "launch", 
-        "program": "${workspaceFolder}/target/debug/${workspaceFolderBasename}.exe", 
-        "args": [], 
-        "stopAtEntry": false, 
-        "cwd": "${workspaceFolder}", 
-        "environment": [], 
-        "externalConsole": false 
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "(Windows) 启动",
+        "preLaunchTask": "build",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/target/debug/${workspaceFolderBasename}.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "externalConsole": false
     }]
 }
 ```
