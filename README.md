@@ -40,7 +40,7 @@ cargo install wasm-pack --no-default-features # 忽略 OpenSSL
 // tasks.json
 { 
     "version": "2.0.0",
-    "tasks": [{ 
+    "tasks": [{
         "label": "build",
         "type": "shell",
         "command": "cargo",
