@@ -1,0 +1,15 @@
+{
+	"name": "rust-wasm",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build:wasm": "cd ./wasm && wasm-pack build --target web",
+		"start:wasm": "cd ./wasm && cargo run",
+		"check": "cd ./wasm && cargo check",
+		"doc": "cd ./wasm && cargo doc --open"
+	},
+	"author": "",
+	"license": "ISC"
+}
